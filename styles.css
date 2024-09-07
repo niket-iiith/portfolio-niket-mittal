@@ -1,0 +1,124 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.sidebar {
+    width: 30%;
+    padding: 20px;
+    border-right: 1px solid #e0e0e0;
+}
+
+.profile-picture {
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.social-links img {
+    width: 30px;
+    height: 30px;
+}
+
+.cv-button {
+    display: block;
+    background-color: #105262;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.achievement, .hobby, .travel, .interest {
+    margin-bottom: 20px;
+}
+
+.achievement img, .hobby img, .travel img, .interest img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    float: left;
+}
+
+main {
+    width: 70%;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 20px;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    margin-top: 30px;
+}
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+.publication-years {
+    margin-bottom: 20px;
+}
+
+.year-button {
+    background-color: #105262;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-right: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .sidebar, main {
+        width: 100%;
+    }
+}
